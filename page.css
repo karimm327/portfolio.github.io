@@ -1,0 +1,303 @@
+body {
+    font-size: 20px;          
+    text-align: left;              /* Aligner le texte à gauche */
+    height: auto;                  /* Laisser la hauteur s'ajuster au contenu */
+    margin-top: 200px;             /* Décalage du contenu vers le bas */
+    width: 100%;                   /* Utilise toute la largeur de l'écran */
+    scroll-behavior: smooth; /* Défilement fluide */
+}
+
+p1 {
+    color:black;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 6px; 
+}
+
+form {
+    margin: right;
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    border: 5px solid black;
+    background-color:  #fff ;
+    padding: 5px;
+    border: 6px double black;
+}
+
+
+
+h1 {
+    font-size: 70px; 
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 3px 2px black;
+    
+
+}
+
+h2 {
+    margin-bottom: 100px; 
+    margin-right: 1px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px black;
+    background-position: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    width: 90%;
+    font-size: 60px;
+    text-align: center;  
+    color:white;
+    margin-bottom:290px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+p {
+    width: 90%;
+    font-size: 24px;
+    text-align: left;  
+    color:white;
+    margin-bottom:150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h {
+    width: 90%;
+    font-size: 24px;
+    text-align: left;  
+    color:white;
+    margin-bottom:150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+p1 {
+    width: 90%;
+    font-size: 24px;
+    text-align: left;  
+    color:white;
+    margin-bottom:150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p2 {
+    border: 3px solid black;
+    margin-right:170px;
+    width: 90%;
+    font-size: 20px;
+    text-align: left;  
+    color:white;
+    margin-top:150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p3 {
+    border: 3px solid black;
+    margin-right:170px;
+    width: 90%;
+    font-size: 20px;
+    text-align: left; 
+    justify-content:space-between;
+    color: black;
+    margin-top:150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#page4 {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #111;
+    color: white;
+}
+
+.scale-border {
+  border: 3px solid black;
+  padding: 20px;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  cursor: pointer;
+  box-shadow: 0 0 5px white;
+}
+
+/* Animation quand la souris passe dessus */
+.scale-border:hover {
+  transform: scale(1.1);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; /* espace horizontal entre les logos */
+    margin-top: 30px;
+    flex-wrap: wrap;
+    text-shadow: 100px 1px 2px blue;
+}
+
+.python, .sql, .java, .js{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color:  #ffffff ;
+    border: 3px solid black;         /* <-- Ajoute un contour blanc */
+    border: 3px solid black;
+    margin-right:3px;
+    width: 90%;
+    font-size: 20px;
+    text-align: center; 
+    background-color: black;
+    margin-top:15px;
+    box-shadow: 0 0 5px white;
+   
+}
+
+/* Exemple d'images */
+.python {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8RED7UqmmNVEEnhokd_hl8192-oCm4UPRw&s');
+    
+}
+
+.sql {
+    background-image: url('https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png');
+}
+
+.java {
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--programming-language-coding-logos-icons-1720088.png');
+}
+
+.js {
+    background-image: url('https://loopino.com.br/wp-content/uploads/2025/01/javascript.png.webp');
+}
+    
+
+h2 {
+    color: white;
+    margin-bottom:400px;
+    margin-left:200px;
+}
+
+
+/* Définir l'animation de clignotement */
+@keyframes blink {
+    0% {
+        opacity: 1; /* Visible */
+    }
+    50% {
+        opacity: 0; /* Transparent */
+    }
+    100% {
+        opacity: 1; /* Retour à visible */
+    }
+}
+
+
+nav { 
+     animation: blink 1s 2;
+}
+
+/* Sections */
+section {
+    height: 100vh; /* Chaque section occupe toute la hauteur de l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#page1 {
+    color: white;
+    background: linear-gradient(to bottom, #000000, #111106);
+}
+
+#page2 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #111106, #000000);
+}
+
+#page3 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #000000, #050505);
+}
+
+#page4 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #050505, #4B0082);
+    
+}
+
+
+#page5 {
+    
+    color: white;
+    background: linear-gradient(to bottom, #4B0082, #050505);
+    
+}
+
+/* Liens de navigation */
+nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background: rgba(1, 1, 1, 1);
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-300px) scale(0.5);
+    opacity: 0;
+  }
+}
+.python, .sql, .java, .js {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 3px solid black;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1s ease;
+}
+
+.python:hover, .sql:hover ,.java:hover, .js:hover  {
+    transform: scale(1.1) rotate(3deg);
+}
+
+
